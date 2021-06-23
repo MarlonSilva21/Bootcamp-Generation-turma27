@@ -4,8 +4,8 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro primeiro, segundo, terceiro, r, s, expo, expo1
-		real d
+		real primeiro, segundo, terceiro, r, s, d, expo, expo1
+		
 	
 		escreva("Por favor me informe o primeiro numero inteiro: ")
 		leia(primeiro)
@@ -16,14 +16,8 @@ programa
 		escreva("Por favor me informe o terceiro numero inteiro:")
 		leia(terceiro)
 
-		r = Matematica.potencia((primeiro + segundo),2)
-		s = Matematica.potencia((segundo + terceiro),2)
 
-		d = (r + s) / 2
-
-		escreva(d)
-
-		/*r  = primeiro + segundo
+		r  = primeiro + segundo
 		expo = r * r
 		
 		s = segundo + terceiro
@@ -34,7 +28,7 @@ programa
 		escreva("\n resultado da primeira expressão: "+ expo )
 		escreva("\n resultado da segunda expressão: " + expo1 )
 		escreva("\n resultado da terceira expressão: " + d + "\n")
-		*/
+		
 		
 
 		
@@ -45,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 487; 
+ * @POSICAO-CURSOR = 112; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
