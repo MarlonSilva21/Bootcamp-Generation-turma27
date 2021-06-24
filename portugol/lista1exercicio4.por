@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica 
+	inclua biblioteca Matematica 
 	
 	funcao inicio()
 	{
@@ -29,9 +29,6 @@ programa
 		escreva("\n resultado da segunda expressão: " + expo1 )
 		escreva("\n resultado da terceira expressão: " + d + "\n")
 		
-		
-
-		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -39,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 112; 
+ * @POSICAO-CURSOR = 651; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
