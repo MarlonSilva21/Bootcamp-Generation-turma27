@@ -31,8 +31,8 @@ public static void main(String[] args) {
 		    	System.out.printf("A ordem crescente: %d %d %d\n", n3, n2, n1);
 		    else if (n3 < n1)
 		    	System.out.printf("A ordem crescente: %d %d %d\n", n2, n3, n1);
-		  if (n1 < n2)
-		    if (n3 < n1)
+		  if (n2 > n1)
+		    if (n1 > n3)
 		    	System.out.printf("A ordem crescente: %d %d %d\n", n3, n1, n2);
 		    else if (n3 < n2)
 		    	System.out.printf("A ordem crescente: %d %d %d\n", n1, n3, n2);
