@@ -12,7 +12,7 @@ public class CadFriends {
 		
 		pessoa amigo1 = new pessoa();
 		pessoa amigo2 = new pessoa();
-		pessoa amigo3 = new pessoa();
+		//pessoa amigo3 = new pessoa();
 		
 		
 		System.out.println("Digite o nome: ");
@@ -36,6 +36,8 @@ public class CadFriends {
 		
 		System.out.println("Digite o ano de nascimento: ");
 		amigo2.anoNascimento = leia.nextInt();
+		
+		leia.close();
 
 	}
 }

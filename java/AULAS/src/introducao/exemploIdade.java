@@ -8,11 +8,11 @@ public class exemploIdade {
 		
 		Scanner leia = new Scanner(System.in);
 		
-		String nome, nome1, nome2;
+		
 		String nomes[] = new String[3];
 		int idades[] = new int [3];
 		int idadeVelha, idadeNova; 
-		int anoNascimento, anoNascimento2, anoNascimento3;
+		//int anoNascimento, anoNascimento2, anoNascimento3;
 		String sexo;
 		
 		for(int i = 1; i <=3 ; i++) {
