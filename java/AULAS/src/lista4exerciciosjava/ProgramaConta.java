@@ -2,7 +2,7 @@ package lista4exerciciosjava;
 
 import java.util.Scanner;
 
-public class Conta {
+public class ProgramaConta {
 	
 	public static void main(String[] args) {
 		
