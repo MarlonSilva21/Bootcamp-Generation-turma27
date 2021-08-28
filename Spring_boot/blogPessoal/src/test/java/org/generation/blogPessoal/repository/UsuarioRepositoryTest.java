@@ -29,19 +29,19 @@ public class UsuarioRepositoryTest {
 
 		LocalDate data = LocalDate.parse("2000-07-22", DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 
-		Usuario usuario = new Usuario(0, "João da Silva", "joao@email.com.br", "13465278", data);
+		Usuario usuario = new Usuario(0, "João da Silva", "joao@email.com.br", "13465278", "a","normal");
 		if (usuarioRepository.findByUsuario(usuario.getUsuario()).isEmpty())
 			usuarioRepository.save(usuario);
 
-		usuario = new Usuario(0, "Frederico da Silva", "frederico@email.com.br", "13465278", data);
+		usuario = new Usuario(0, "Frederico da Silva", "frederico@email.com.br", "13465278", "a","normal");
 		if (!usuarioRepository.findByUsuario(usuario.getUsuario()).isPresent())
 			usuarioRepository.save(usuario);
 
-		usuario = new Usuario(0, "Manuel da Silva", "manuel@email.com.br", "13465278", data);
+		usuario = new Usuario(0, "Manuel da Silva", "manuel@email.com.br", "13465278", "a","normal");
 		if (!usuarioRepository.findByUsuario(usuario.getUsuario()).isPresent())
 			usuarioRepository.save(usuario);
 
-		usuario = new Usuario(0, "Paulo Antunes", "paulo@email.com.br", "13465278", data);
+		usuario = new Usuario(0, "Paulo Antunes", "paulo@email.com.br", "13465278", "a","normal");
 		if (!usuarioRepository.findByUsuario(usuario.getUsuario()).isPresent())
 			usuarioRepository.save(usuario);
 
