@@ -59,7 +59,7 @@ public class UsuarioService {
 			return  Optional.of(usuarioRepository.save(usuario));
 		}
 		else {
-			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Usuário não encontrado", null);
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Usuário não encontrado", null); 
 		}
 	}
 	
